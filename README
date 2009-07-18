@@ -1,0 +1,17 @@
+COMO OBTENER ACCESO AL SISTEMA DE CONTROL DE VERSIONES DE DEBPBX
+
+Si quires colaborar con código e ideas en este proyecto necesitas tener acceso al repositorio GIT.
+
+Para tener acceso, debes solicitarnos y enviarnos tu clave pública y tu nombre de usuario en www.github.com.
+
+1.- Gererar una clave dsa publica/privada:
+$ ssh-keygen -t dsa
+Generating public/private dsa key pair.
+Enter file in which to save the key (/home/tom/.ssh/id_dsa): <enter>
+Enter passphrase (empty for no passphrase): <enter passphrase or hit enter>
+Enter same passphrase again: <enter passphrase again>
+Your identification has been saved in /home/usesr/.ssh/id_dsa.
+Your public key has been saved in /home/user/.ssh/id_dsa.pub.
+The key fingerprint is: <hex string>
+
+2.- Copiar y enviarnos el contenido de /home/user/.ssh/id_dsa.pub
